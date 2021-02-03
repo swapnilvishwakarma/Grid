@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        #container {
+            display: grid;
+            /* 3 cols having diff sizes */
+            grid-template-columns: 100px 300px auto;
+            /* 3 rows having diff sizes */
+            grid-template-rows: auto 400px auto;
+            background: lightgreen;
+        }
+        .item {
+            background: lightcoral;
+            padding: 30px;
+            border: 1px solid;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque esse tenetur deleniti porro? Quod non sapiente error quaerat, voluptatibus iure sed blanditiis accusamus in vel, veritatis perferendis magnam ipsum modi.</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+        <div class="item">Item 7</div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+<!-- 
+Grid: Can controll 2-D at a time unlike Flex which is 1-D at a time.
+
+
+ -->
